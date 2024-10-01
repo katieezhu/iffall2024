@@ -1,0 +1,32 @@
+/* selector { 
+    property-name: value;
+    another-property-name: value;
+  } */
+
+  html {
+    font-family: "Inter", sans-serif;
+    font-size: 11pt
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  body {
+    margin: 20%;
+    margin-top: 50px;
+    background-color: #EADDCA;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .begin {
+    text-align: center;
+  }
+  
