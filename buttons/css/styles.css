@@ -1,0 +1,275 @@
+/* lyft button */
+
+a#btn_lyft {
+    display: inline-block;
+    background-color: #FF00BF;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 30px 0 30px;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 25px;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+a#btn_lyft:hover {
+    background-color: white;
+    color: #FF00BF;
+    border-color: #FF00BF;
+    border-radius: 2px;
+}
+
+/* michael kors button */
+
+a#btn_mk {
+    display: inline-block;
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    /* font-kerning: 5px; */
+    height: 50px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 25px;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+a#btn_mk:hover {
+    color: gray;
+}
+
+/* exploding kittens button */
+
+a#btn_ek {
+    display: inline-block;
+    background-color: #ab2f20;
+    color: #fff;
+    font-family: "DynaPuff", system-ui;
+    border-radius: 35px;
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px 10px 10px 10px;
+    font-weight: 800;
+    text-align: center;
+    font-size: 20px;
+    transition: all .5s;  
+    text-decoration: none;
+}
+
+a#btn_ek:hover {
+    background-color: white;
+    color: #ab2f20;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+/* from https://www.w3schools.com/howto/howto_css_shake_image.asp !!! */
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+/* instagram button */
+
+a#btn_insta {
+    display: inline-block;
+    color: black;
+    font-family: "Birthstone", cursive;
+    height: 50px;
+    margin: auto;
+    margin-top: 100px;
+    font-weight: 800;
+    text-align: center;
+    font-size: 45px;
+    transition: all .5s; 
+    text-decoration: none; 
+}
+
+a#btn_insta:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3232+0,515151+50,0082e5+100 */
+    background: linear-gradient(to right, #405de6 1%,#e1306c 50%,#fcaf45 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* facebook button */
+
+a#btn_facebook {
+    display: inline-block;
+    background-color: #4267B2;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding: 30px 0 0 20px;
+    font-weight: 800;
+    text-align: center;
+    font-size: 50px;
+    transition: all .5s;  
+    text-decoration: none;
+}
+
+a#btn_facebook:hover {
+    background-color: white;
+    color: #4267B2;
+    border: 5px solid #4267B2;
+}
+
+/* new yorker button */
+
+a#btn_ny {
+    display: inline-block;
+    color: #d9292a;
+    font-family: "Tinos", serif;
+    margin: auto;
+    margin-top: 100px;
+    font-weight: 200;
+    text-align: center;
+    font-size: 25px;
+    transition: all .1s;
+    text-decoration: none;
+}
+
+a#btn_ny:hover {
+    color: black;
+    border: 1px solid #d9292a;
+    padding: 2px 2px 2px 2px;
+}
+
+/* pastaria button */
+
+a#btn_pasta {
+    display: inline-block;
+    color: red;
+    font-family: "Teko", sans-serif;
+    height: 50px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 110px;
+    font-weight: 800;
+    text-align: center;
+    font-size: 35px;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+a#btn_pasta:hover {
+    color: darkred;
+    font-size: 45px;
+    text-align: center;
+}
+
+/* ibm button */
+
+a#btn_ibm {
+    display: inline-block;
+    color: #0e61fe;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 110px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 45px;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+a#btn_ibm:hover {
+    color:darkblue;
+    font-weight: 800;
+    transition: all .1s;
+    text-align: center;
+    animation: wiggle 0.3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(10deg); }
+   95% { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* nike button */
+
+a#btn_nike {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    width: 150px;
+    height: 50px;
+    padding: 10px 0 0 0;
+    margin: auto;
+    margin-top: 110px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 30px;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+a#btn_nike:hover {
+    background-color: white;
+    color:black;
+    font-style: italic;
+    transition: all .1s;
+    text-align: center;
+}
+
+/* npr button */
+
+a#btn_npr {
+    display: inline-block;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    height: 50px;
+    margin: auto;
+    margin-top: 100px;
+    font-weight: 800;
+    text-align: center;
+    font-size: 45px;
+    transition: all .5s; 
+    text-decoration: none; 
+}
+
+a#btn_npr:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d62121+1,7c7c7c+50,247bbd+100 */
+    background: linear-gradient(to right,  #d62121 1%,#7c7c7c 50%,#247bbd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: move 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    50% {transform: rotate(180deg);}
+  }
