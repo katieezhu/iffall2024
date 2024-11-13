@@ -1,0 +1,14 @@
+/* html {
+    margin: 150px 100px;
+} */
+
+body {
+    font-family: "Black Han Sans", sans-serif;
+    background-color: #DC4439;
+}
+
+.header {
+    color: white;
+    font-size: 70px;
+    padding: 50px 0 0 100px;
+}

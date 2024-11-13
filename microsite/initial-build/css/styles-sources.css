@@ -1,0 +1,11 @@
+body {
+    font-family: "Black Han Sans", sans-serif;
+    background-color: #DC4439;
+    margin: auto;
+}
+
+.header {
+    color: white;
+    font-size: 70px;
+    padding-top: 50px;
+}
