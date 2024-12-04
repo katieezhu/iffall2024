@@ -35,32 +35,38 @@ body {
     font-size: 70px;
     text-align: center;
     padding-top: 200px;
-    padding-left: 200px;
-    /* padding: 50px 0 0 150px; */
-
     position: absolute;
-    width: 100%;
+    width: 200%; /* changed */
     height: 100%;
     margin: 0;
     line-height: 50px;
     text-align: center;
-
-    transform:translateX(100%);
-    animation: scroll-left 10s linear infinite;
+    transform: translateX(0em);
+    animation: scroll-left 3s linear infinite; /* changed */
     white-space: nowrap;
     overflow: hidden;
     display: flex;
     
 }
 
+@keyframes scroll-left {
+    0%   {
+    transform: translateX(0em); /* changed */		
+    }
+    100% {
+    transform: translateX(-7.2em); /* changed */
+    }
+}
+
 .body {
+    font-family: "Roboto", sans-serif;
     padding-top: 350px;
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 30px;
     color: white;
     line-height: 25px;
-    font-size: 16px;
+    font-size: 13.5px;
 }
 
 .david-tran {
@@ -84,15 +90,41 @@ body {
     float: left;
 }
 
-/* code help from w3 schools1 */
+.contact-content p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
 
-/* Move it (define the animation) */
+.navigation {
+    position: fixed; /* Keeps the whole navigation section fixed */
+    top: 0;
+    width: 100%; /* Spans the full width */
+    z-index: 1000; /* Ensures it stays above other elements */
+}
 
-@keyframes scroll-left {
-    0%   {
-    transform: translateX(100%); 		
-    }
-    100% {
-    transform: translateX(-100%); 
-    }
+  .navigation ul {
+    font-size: 25px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navigation li {
+    float: left;
+}
+  
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #A72E23;
+}
+  
+.navigation li a:hover {
+    color: #32C647;
+    transition: 0.5s;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
